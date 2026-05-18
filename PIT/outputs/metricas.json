@@ -1,0 +1,7 @@
+{
+    "ROC_AUC": 0.0,
+    "KS": 0.0,
+    "PR_AUC": 0.0,
+    "Recall_at_threshold": 0.0,
+    "observacao": "Valores iniciais. Execute os scripts em src/ para atualizar."
+}
