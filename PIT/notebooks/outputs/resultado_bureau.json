@@ -1,7 +1,7 @@
 {
-  "auc_com_bureau": 0.7848,
-  "auc_sem_bureau": 0.7016,
-  "degradacao": 0.0832,
+  "auc_com_bureau": 0.7919,
+  "auc_sem_bureau": 0.7295,
+  "degradacao": 0.0624,
   "features_bureau": [
     "SCORE_HCP4",
     "SCORE_HEST",
@@ -17,24 +17,25 @@
     "razao_hipa_hipn"
   ],
   "features_sem_bureau": [
-    "idade",
+    "score",
     "total_financiado",
     "quantidade_parcelas",
-    "pedido_pai_ob",
     "dia_semana_compra",
     "mes_compra",
+    "dia_mes_compra",
     "compra_fim_semana",
     "valor_parcela",
-    "tem_order_bump",
-    "MENSAGEM_TIPO_REGISTRO_encoded",
-    "produtor_encoded",
-    "lancamento_encoded",
+    "risco_ord",
     "segmento_encoded",
-    "categoria_risco_score_encoded",
-    "endereco_cep_encoded",
+    "modalidade_encoded",
     "endereco_estado_encoded",
     "endereco_cidade_encoded",
-    "nascimento_encoded",
-    "modalidade_encoded"
+    "endereco_cep_encoded",
+    "lancamento_encoded",
+    "produtor_encoded",
+    "MENSAGEM_TIPO_REGISTRO_encoded",
+    "categoria_risco_score_encoded",
+    "idade_encoded",
+    "nascimento_encoded"
   ]
 }
