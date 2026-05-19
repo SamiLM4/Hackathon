@@ -1,0 +1,68 @@
+DESCRIÇÃO DAS VARIÁVEIS SELECIONADAS
+=====================================
+
+DADOS DO CLIENTE
+----------------
+idade               - Idade do cliente em anos.
+nascimento          - Data de nascimento do cliente.
+endereco_cep        - CEP do endereço do cliente.
+endereco_estado     - Estado (UF) onde o cliente reside.
+endereco_cidade     - Cidade do cliente (anonimizada).
+
+DADOS DA OPERAÇÃO
+-----------------
+data_efetivacao     - Data em que a venda foi efetivada.
+total_financiado    - Valor total financiado na operação.
+quantidade_parcelas - Número de parcelas do plano de pagamento.
+modalidade          - Modalidade da operação (ex: Compartilhado, Antecipado).
+order_bump          - Indica se o pedido foi um order bump (produto adicional ofertado no checkout).
+pedido_pai_ob       - ID do pedido principal quando o registro é um order bump.
+
+DADOS DO PRODUTO
+----------------
+produtor            - Produtor responsável pelo produto vendido (anonimizado).
+lancamento          - Lançamento ou turma do produto ao qual o pedido pertence (anonimizado).
+segmento            - Segmento do produto (ex: Empreendedor, Autoconhecimento).
+
+SCORE INTERNO TMB
+-----------------
+score               - Score de risco interno calculado pela TMB.
+categoria_risco_score - Faixa categórica do score interno (ex: Baixo, Médio, Alto risco).
+
+BUREAU DE CRÉDITO — STATUS E SCORES GERAIS
+-------------------------------------------
+MENSAGEM_TIPO_REGISTRO - Status do registro do CPF no bureau de crédito (ex: ativo, inativo, irregular).
+SCORE_HCP4          - Score de crédito Pessoa Física do bureau — modelo HCP4.
+SCORE_HCP5          - Score de crédito Pessoa Física do bureau — modelo HCP5 (versão mais recente).
+SCORE_HEST          - Score comportamental do bureau, baseado no histórico de comportamento financeiro.
+
+BUREAU DE CRÉDITO — FINANCIAMENTO E VAREJO
+-------------------------------------------
+SCORE_HFI4          - Score de financiamento do bureau — modelo HFI4.
+SCORE_HFI5          - Score de financiamento do bureau — modelo HFI5 (versão mais recente).
+SCORE_HSV4          - Score de varejo e serviços do bureau — modelo HSV4.
+SCORE_HSV5          - Score de varejo e serviços do bureau — modelo HSV5 (versão mais recente).
+
+BUREAU DE CRÉDITO — VEÍCULOS
+------------------------------
+SCORE_HVA4          - Score de crédito veicular/automotivo do bureau — modelo HVA4.
+SCORE_HVA5          - Score de crédito veicular/automotivo do bureau — modelo HVA5 (versão mais recente).
+
+BUREAU DE CRÉDITO — PROPENSÃO E RISCO
+---------------------------------------
+SCORE_HIPA          - Score de propensão à adimplência — probabilidade de o cliente pagar em dia.
+SCORE_HIPN          - Score de propensão à inadimplência — probabilidade de o cliente não pagar.
+SCORE_HRM5          - Score de risco geral do bureau — modelo HRM5.
+
+BUREAU DE CRÉDITO — INDICADORES E MODELOS HI/HPG/HCR/H5OR
+-----------------------------------------------------------
+HI01_PROB           - Probabilidade calculada pelo modelo HI01 do bureau (risco de inadimplência).
+HI01_CONCEITO       - Conceito/classe associado ao HI01_PROB (ex: A, B, C — onde A é menor risco).
+HPG5                - Indicador HPG5 do bureau — relacionado ao perfil de pagamento do consumidor.
+HCR5                - Indicador HCR5 do bureau — relacionado ao comportamento de crédito recente.
+H5OR                - Indicador H5OR do bureau — indicador composto de risco de crédito.
+
+=====================================
+Total: 34 variáveis
+Combinação de dados cadastrais do cliente, características da operação
+e múltiplos indicadores de risco do score interno da TMB e do bureau externo.
