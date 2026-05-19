@@ -1,7 +1,7 @@
 {
-  "auc_com_bureau": 0.7919,
-  "auc_sem_bureau": 0.7295,
-  "degradacao": 0.0624,
+  "auc_com_bureau": 0.7907,
+  "auc_sem_bureau": 0.728,
+  "degradacao": 0.0628,
   "features_bureau": [
     "SCORE_HCP4",
     "SCORE_HEST",
@@ -30,7 +30,6 @@
     "modalidade_encoded",
     "endereco_estado_encoded",
     "endereco_cidade_encoded",
-    "endereco_cep_encoded",
     "lancamento_encoded",
     "produtor_encoded",
     "MENSAGEM_TIPO_REGISTRO_encoded",

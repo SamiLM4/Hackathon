@@ -1,6 +1,6 @@
 {
   "USAR_ENSEMBLE": true,
-  "AUC_MODELO_FINAL": 0.7953587582672129,
+  "AUC_MODELO_FINAL": 0.7934219686159862,
   "SCALE_POS_WEIGHT": 5.878559036636392,
   "FEATURE_COLS": [
     "SCORE_HCP4",
@@ -28,7 +28,6 @@
     "modalidade_encoded",
     "endereco_estado_encoded",
     "endereco_cidade_encoded",
-    "endereco_cep_encoded",
     "lancamento_encoded",
     "produtor_encoded",
     "MENSAGEM_TIPO_REGISTRO_encoded",

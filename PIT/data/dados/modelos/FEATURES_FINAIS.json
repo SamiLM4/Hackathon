@@ -35,7 +35,6 @@
       "modalidade_encoded",
       "endereco_estado_encoded",
       "endereco_cidade_encoded",
-      "endereco_cep_encoded",
       "lancamento_encoded",
       "produtor_encoded",
       "MENSAGEM_TIPO_REGISTRO_encoded",
@@ -43,7 +42,7 @@
       "idade_encoded",
       "nascimento_encoded"
     ],
-    "qtd": 32,
+    "qtd": 31,
     "target": "FPD",
     "id": "pedido_id",
     "observacoes": "Categóricas como _encoded. NaN tratado nativamente — não usar fillna(-999)."
@@ -70,7 +69,6 @@
       "segmento",
       "score",
       "categoria_risco_score",
-      "endereco_cep",
       "endereco_estado",
       "endereco_cidade",
       "nascimento",
@@ -89,13 +87,12 @@
       "razao_hipa_hipn",
       "risco_ord"
     ],
-    "qtd": 32,
+    "qtd": 31,
     "cat_features": [
       "segmento",
       "modalidade",
       "endereco_estado",
       "endereco_cidade",
-      "endereco_cep",
       "lancamento",
       "produtor",
       "MENSAGEM_TIPO_REGISTRO",
@@ -105,16 +102,15 @@
     ],
     "cat_features_indices": [
       11,
-      19,
-      15,
-      16,
+      18,
       14,
+      15,
       10,
       9,
       8,
       13,
-      18,
-      17
+      17,
+      16
     ],
     "target": "FPD",
     "id": "pedido_id",
