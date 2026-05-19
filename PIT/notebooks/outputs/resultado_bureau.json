@@ -1,7 +1,7 @@
 {
-  "auc_com_bureau": 0.7907,
+  "auc_com_bureau": 0.7899,
   "auc_sem_bureau": 0.728,
-  "degradacao": 0.0628,
+  "degradacao": 0.0619,
   "features_bureau": [
     "SCORE_HCP4",
     "SCORE_HEST",
