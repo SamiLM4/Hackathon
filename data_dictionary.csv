@@ -1,0 +1,68 @@
+﻿coluna,descricao
+pedido_id,Identificador único do pedido.
+FPD,Alvo. Indica se o cliente ficou inadimplente na primeira parcela (Sim/Não).
+CPF,CPF do cliente (anonimizado).
+documento,"Documento do cliente, geralmente CPF (anonimizado)."
+documento2,Documento alternativo do cliente (anonimizado).
+nome,Nome do cliente (anonimizado).
+email,E-mail do cliente (anonimizado).
+telefone_ativo,Telefone do cliente (anonimizado).
+pedido_pai_ob,ID do pedido principal quando o registro é um order bump.
+produtor,Produtor responsável pelo produto vendido (anonimizado).
+lancamento,Lançamento/turma do produto (anonimizado).
+segmento,"Segmento do produto (ex: Empreendedor, Autoconhecimento)."
+endereco_cep,CEP do cliente.
+endereco_estado,Estado do cliente.
+endereco_cidade,Cidade do cliente (anonimizada).
+nascimento,Data de nascimento do cliente.
+idade,Idade do cliente em anos.
+modalidade,"Modalidade da operação (Compartilhado, Antecipado, etc.)."
+total_financiado,Valor total financiado.
+quantidade_parcelas,Quantidade de parcelas do plano.
+data_efetivacao,Data em que a venda foi efetivada.
+Vencimento,Data de vencimento da primeira parcela.
+order_bump,Indica se o pedido foi um order bump.
+score,Score interno da TMB.
+categoria_risco_score,Faixa categórica do score interno.
+MENSAGEM_TIPO_REGISTRO,Status do registro no bureau de crédito.
+SCORE_HCP4,Score de crédito Pessoa Física do bureau (modelo HCP4).
+SCORE_HCP5,Score de crédito Pessoa Física do bureau (modelo HCP5).
+SCORE_HCC4,Score de cartão de crédito do bureau (modelo HCC4).
+SCORE_HCMV,Score de cheque/cartão/movimento do bureau.
+SCORE_HEST,Score comportamental do bureau.
+SCORE_HFI4,Score de financiamento do bureau (modelo HFI4).
+SCORE_HFI5,Score de financiamento do bureau (modelo HFI5).
+SCORE_HIPA,Score de propensão à adimplência do bureau.
+SCORE_HIPN,Score de propensão à inadimplência do bureau.
+SCORE_HIRF,Score de risco financeiro do bureau.
+SCORE_HRCP,Score de risco de crédito pessoal do bureau.
+SCORE_HRM5,Score de risco do bureau (modelo HRM5).
+SCORE_HSV4,Score de varejo/serviços do bureau (modelo HSV4).
+SCORE_HSV5,Score de varejo/serviços do bureau (modelo HSV5).
+SCORE_HVA4,Score de veículo/automotivo do bureau (modelo HVA4).
+SCORE_HVA5,Score de veículo/automotivo do bureau (modelo HVA5).
+HI01_PROB,Probabilidade calculada pelo modelo HI01 do bureau.
+HI01_CONCEITO,Conceito/classe associado ao HI01_PROB.
+HI02_PROB,Probabilidade calculada pelo modelo HI02 do bureau.
+HI02_CONCEITO,Conceito/classe associado ao HI02_PROB.
+HPG5,Indicador HPG5 do bureau.
+SCORE_HPG5,Score HPG5 do bureau.
+HCR5,Indicador HCR5 do bureau.
+SCORE_HCR4,Score HCR4 do bureau.
+H5OR,Indicador H5OR do bureau.
+SCORE_H5OR,Score H5OR do bureau.
+status_cobranca,Status atual de cobrança do pedido.
+status_financeiro,"Status financeiro do pedido (Adimplente, Inadimplente, Quitado)."
+status_pedido,"Status do pedido (Efetivado, Cancelado, etc.)."
+saldo_vencido,Saldo vencido em aberto.
+quantidade_parcelas_vencidas,Número de parcelas vencidas.
+recebido,Valor já recebido do cliente.
+primeiro_vencimento_em_atraso,Data do primeiro vencimento em atraso.
+dias_em_atraso,Dias de atraso da operação.
+pdd,Provisão para devedores duvidosos.
+saldo_vencido_com_juros,Saldo vencido acrescido de juros.
+total_pago_com_juros,Total pago pelo cliente incluindo juros.
+aguardando_pagamento_sem_juros,Valor aguardando pagamento sem juros.
+vencidos_sem_juros_tmb,Valor vencido sem juros (visão TMB).
+recebido_sem_juros_tmb,Valor recebido sem juros (visão TMB).
+data_quitacao,Data de quitação da operação.
