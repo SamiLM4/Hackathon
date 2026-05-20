@@ -54,4 +54,4 @@ A régua de cobrança da TMB é ativada proporcionalmente ao risco, otimizando c
 Ver documento completo em `outputs/politica_12A.md`.
 
 ---
-*Gerado automaticamente pelo Módulo 8 do notebook Dev 3 | 20/05/2026 00:27*
+*Gerado automaticamente pelo Módulo 8 do notebook Dev 3 | 20/05/2026 00:44*
