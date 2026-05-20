@@ -3,5 +3,9 @@
     "KS": 0.43636965374228587,
     "PR_AUC": 0.3305622404263398,
     "Recall_at_threshold": 0.4274284952330155,
-    "threshold_usado": 0.5
+    "threshold_usado": 0.5,
+    "Precision": 0.25783809078146935,
+    "Recall_real": 0.8000968054211036,
+    "Clientes_por_FPD": 3.8784029038112524,
+    "Razao_Normal_FPD": 2.8784029038112524
 }
